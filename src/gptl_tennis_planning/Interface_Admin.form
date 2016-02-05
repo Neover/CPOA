@@ -114,9 +114,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="BackGround">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Neo\Documents\CPOA\1fdf67babd432d7589fb8b0b4b59fc15_large.jpeg"/>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
       <Constraints>

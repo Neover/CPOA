@@ -23,7 +23,6 @@ public class Interface_Joueur extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
         Valider = new javax.swing.JButton();
         Lab_ID = new javax.swing.JLabel();
         Lab_ID2 = new javax.swing.JLabel();
@@ -46,12 +45,8 @@ public class Interface_Joueur extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(270, 30, 670, 90);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Reservation", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Algerian", 1, 24), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Reservation", 1, 2, new java.awt.Font("Algerian", 1, 24), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel1.setOpaque(false);
-
-        jDateChooser1.setMaximumSize(new java.awt.Dimension(30, 22));
-        jDateChooser1.setMinimumSize(new java.awt.Dimension(30, 22));
-        jDateChooser1.setPreferredSize(new java.awt.Dimension(10, 20));
 
         Valider.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         Valider.setText("Valider");
@@ -119,7 +114,6 @@ public class Interface_Joueur extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(Valider)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(TFReserv, javax.swing.GroupLayout.PREFERRED_SIZE, 447, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(CBTerrain, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addGap(31, 31, 31))
@@ -132,9 +126,7 @@ public class Interface_Joueur extends javax.swing.JFrame {
                     .addComponent(Lab_ID4, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
                     .addComponent(TFReserv, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Lab_ID, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jDateChooser1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(Lab_ID, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Lab_ID2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -150,10 +142,8 @@ public class Interface_Joueur extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(90, 140, 840, 380);
-
-        BackGround.setIcon(new javax.swing.ImageIcon("C:\\Users\\Neo\\Documents\\CPOA\\1fdf67babd432d7589fb8b0b4b59fc15_large.jpeg")); // NOI18N
         getContentPane().add(BackGround);
-        BackGround.setBounds(0, 0, 1106, 716);
+        BackGround.setBounds(0, 0, 0, 0);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -243,7 +233,6 @@ public class Interface_Joueur extends javax.swing.JFrame {
     private javax.swing.JLabel Lab_ID4;
     private javax.swing.JTextField TFReserv;
     private javax.swing.JButton Valider;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

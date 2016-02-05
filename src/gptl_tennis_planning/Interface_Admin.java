@@ -68,10 +68,9 @@ public class Interface_Admin extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(230, 490, 220, 70);
 
-        BackGround.setIcon(new javax.swing.ImageIcon("C:\\Users\\Neo\\Documents\\CPOA\\1fdf67babd432d7589fb8b0b4b59fc15_large.jpeg")); // NOI18N
         BackGround.setOpaque(true);
         getContentPane().add(BackGround);
-        BackGround.setBounds(0, 0, 1106, 730);
+        BackGround.setBounds(0, 0, 0, 730);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

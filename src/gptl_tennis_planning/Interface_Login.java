@@ -1,14 +1,14 @@
 package gptl_tennis_planning;
 
 import Connexion.DBConnexion;
-import java.awt.GraphicsDevice;
-import java.awt.Window;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
 
-public class Interface_Login extends javax.swing.JDialog {
+
+
+public class Interface_Login extends javax.swing.JDialog { //Classe pour se loger
 
     Connection conn = new DBConnexion().connect();
 
@@ -47,7 +47,7 @@ public class Interface_Login extends javax.swing.JDialog {
         Lab_Title.setForeground(new java.awt.Color(255, 255, 255));
         Lab_Title.setText("Grand Prix Tournoi de lyon ");
         getContentPane().add(Lab_Title);
-        Lab_Title.setBounds(370, 20, 390, 97);
+        Lab_Title.setBounds(370, 20, 487, 97);
         getContentPane().add(TF_ID);
         TF_ID.setBounds(560, 270, 129, 20);
 
@@ -68,10 +68,8 @@ public class Interface_Login extends javax.swing.JDialog {
         });
         getContentPane().add(jButton1);
         jButton1.setBounds(500, 440, 100, 30);
-
-        BackGround.setIcon(new javax.swing.ImageIcon("C:\\Users\\Neo\\Documents\\CPOA\\1fdf67babd432d7589fb8b0b4b59fc15_large.jpeg")); // NOI18N
         getContentPane().add(BackGround);
-        BackGround.setBounds(0, 0, 1100, 716);
+        BackGround.setBounds(0, 0, 1100, 0);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
